@@ -23,9 +23,9 @@ if(wifi.isconnected()):
     print('Connected',wifi.ifconfig())
 else:
     print('Time Out')
-#wifi.hostname("esp32.local")
-import webrepl
-webrepl.start()
-#import ws1
+# wifi.hostname("esp32.local")
+# import webrepl
+# webrepl.start()
+# import ws1
 
 
