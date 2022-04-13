@@ -1,5 +1,4 @@
-import time
-from ws1 import start_websocket
+from websocket import start_websocket
 
 
 start_websocket()

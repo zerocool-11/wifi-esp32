@@ -1,7 +1,6 @@
 import machine
 from microWebSrv import MicroWebSrv
 import json
-from time import sleep
 from servo import Servo_Motor
 
 s=Servo_Motor(23,50)
